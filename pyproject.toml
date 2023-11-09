@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "bft-2023-ikbfu-test"
+version = "0.1.0"
+description = ""
+authors = ["PheeZz <jagubkoff@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.2"
+pytest-playwright = "^0.4.3"
+pytest-html = "^4.1.1"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.11.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+
+[tool.black]
+line-length = 100
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
