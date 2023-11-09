@@ -11,9 +11,9 @@
 </div>
 
 ## Где лежит отчет о тестировании?
-```bash
-reports/report.html
-```
+1. Онлайн - [GitHub Pages](https://pheezz.github.io/bft-2023-ikbfu-test/?sort=result)
+2. Локально - `reports/report.html`
+
 
 ## Как запустить тесты?
 
